@@ -1,4 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
+
+enum Week {
+    MON,    // 0
+    TUE,    // 1
+    WED,    // 2
+    THU,    // 3
+    FRI,    // 4
+    SAT,    // 5
+    SUN     // 6
+};
 
 int main(void) {
     enum Week day;
